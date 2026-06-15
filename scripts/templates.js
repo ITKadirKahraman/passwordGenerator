@@ -1,37 +1,47 @@
 function getInputFeldForPassword() {
     return `
-        <input type="text" disabled>
-        <button class="saveButton">
-            <img src="./assets/icons/save.svg" alt="Save">
-        </button>
+        <div class="inputButton">
+            <input class="generatorField" type="text" disabled>
+            <button class="saveButton">
+                <img class="saveImg" src="./assets/icons/save.svg" alt="Save">
+            </button>
+        </div>
     `;
 }
 
 function getUppercase() {
     return `
-        <p>Include uppercase letters</p>
-        <input type="checkbox" name="checkbox" id="checkbox">
+        <div class="pContainer">
+            <p>Include uppercase letters</p>
+            <input type="checkbox" name="checkbox" id="checkbox">
+        </div>
     `;
 }
 
 function getLowercase() {
     return `
-        <p>Include lowercase letters</p>
-        <input type="checkbox" name="checkbox" id="checkbox">
+        <div class="pContainer">
+            <p>Include lowercase letters</p>
+            <input type="checkbox" name="checkbox" id="checkbox">
+        </div>
     `;
 }
 
 function getNumbers() {
     return `
-        <p>Include numbers</p>
-        <input type="checkbox" name="checkbox" id="checkbox">
+        <div class="pContainer">
+            <p>Include numbers</p>
+            <input type="checkbox" name="checkbox" id="checkbox">
+        </div>
     `;
 }
 
 function getSymbols() {
     return `
-        <p>Include symbols</p>
-        <input type="checkbox" name="checkbox" id="checkbox">
+        <div class="pContainer">
+            <p>Include symbols</p>
+            <input type="checkbox" name="checkbox" id="checkbox">
+        </div>
     `;
 }
 
