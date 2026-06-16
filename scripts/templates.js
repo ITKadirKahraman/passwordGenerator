@@ -13,34 +13,34 @@ function getUppercase() {
     return `
         <div class="pContainer">
             <p>Include uppercase letters</p>
-            <input type="checkbox" name="checkbox" id="checkbox">
+            <input class="input" type="checkbox" name="checkbox" id="checkbox">
         </div>
     `;
 }
 
 function getLowercase() {
     return `
-        <div class="pContainer">
+        <div class="pContainer lowercase">
             <p>Include lowercase letters</p>
-            <input type="checkbox" name="checkbox" id="checkbox">
+            <input class="input" type="checkbox" name="checkbox" id="checkbox">
         </div>
     `;
 }
 
 function getNumbers() {
     return `
-        <div class="pContainer">
+        <div class="pContainer numbers">
             <p>Include numbers</p>
-            <input type="checkbox" name="checkbox" id="checkbox">
+            <input class="input" type="checkbox" name="checkbox" id="checkbox">
         </div>
     `;
 }
 
 function getSymbols() {
     return `
-        <div class="pContainer">
+        <div class="pContainer symbols">
             <p>Include symbols</p>
-            <input type="checkbox" name="checkbox" id="checkbox">
+            <input class="input" type="checkbox" name="checkbox" id="checkbox">
         </div>
     `;
 }
